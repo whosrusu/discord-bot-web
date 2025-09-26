@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Vlone Bot - The Ultimate Discord Bot</title>
+    <meta content="The Ultimate Vlone Bot For Discord" property="og:title" />
+    <meta content="Enhance your server with powerful features." property="og:description" />
+    <link rel="icon" type="image/x-icon" href="img/logo.jpeg">
+    <meta content="https://cdn.discordapp.com/attachments/1354772333717618720/1397646813682602094/download_1.jpeg?ex=68827b87&is=68812a07&hm=8ac4349e58cb5a5392a07691ba99e38becf41d941d2fa8f2740df7d6f76f55a7&" property="og:image" />
+    <meta content="#ffffff" data-react-helmet="true" name="theme-color" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/2674364cdf.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="fsaz.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">Vlone</div>
+
+      <div class="links">
+        <ul>
+          <li>
+            <a href="#features">features</a>
+          </li>
+          <li>
+            <a href="#commands">commands</a>
+          </li>
+          <li>
+            <a href="#status">Status</a>
+          </li>
+        </ul>
+      </div>
+      <div class="buttons">
+        <a
+          href="https://discord.com/api/oauth2/authorize?client_id=1065192828860375101&permissions=8&scope=bot%20applications.commands"
+         target="_blank">
+          <button class="discordBtn">Add to Discord</button>
+        </a>
+      </div>
+      <div class="mobileMenu">
+        <button id="menu">
+          <p class="close"><i class="fa-solid fa-bars"></i></p>
+          <p class="open" style="display: none;"><i class="fa-solid fa-xmark"></i></p>
+        </button>
+      </div>
+      <div class="mobile-links">
+           <ul>
+          <li>
+            <a href="#features">features</a>
+          </li>
+          <li>
+            <a href="#commands">commands</a>
+          </li>
+          <li>
+            <a href="#status">Status</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header>
+      <div class="about">
+        <!-- <div class="price">free 100%</div> -->
+        <!-- <div class="premium">premium quality</div> -->
+        <div class="img">
+          <img src="img/logo.jpeg" alt="logo" width="300" />
+        </div>
+        <div class="description">
+          <h4>Enhance your server with powerful features.</h4>
+          <h1>The Ultimate <span class="tag">Vlone</span> Bot For Discord</h1>
+          <div class="btns">
+            <button>
+              <i class="fa-brands fa-discord space-icon"></i> Add to Discord
+            </button>
+            <button>
+              <i class="fa-solid fa-headphones space-icon"></i> Contact
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="scroll">
+      Scroll down <br />
+      <br />
+      <i class="fa-solid fa-arrow-down"></i>
+    </div>
+
+    <section id="features">
+        <div class="whyUs">
+      <div class="titlePremium">
+        <div class="premium reveal">premium quality</div>
+      </div>
+      <div class="info reveal">
+        <h4>Why Us</h4>
+        <h1>Made for <span class="tag">utility</span></h1>
+        <h2>premium features completely free for your Discord community</h2>
+      </div>
+      <div class="features reveal">
+        <!-- 1 -->
+        <div class="item">
+            <div class="icon">
+                <i class="fa-solid fa-image"></i>
+            </div>
+            <h2>AutoPfp</h4>
+            <h4>Generate a stunning profile picture with AI technology in seconds</h4>
+            <a href="#commands" onclick="learnMore('autopfp')">Learn more</a>
+        </div>
+
+        <!-- 2 -->
+         <div class="item">
+            <div class="icon">
+                <i class="fa-solid fa-lightbulb"></i>
+            </div>
+            <h2>Utility</h4>
+            <h4>Powerful commands that will make managing your Discord server easier</h4>
+            <a href="#commands" onclick="learnMore('utility')">Learn more</a>
+        </div>
+
+        <!-- 3 -->
+         <div class="item">
+            <div class="icon">
+                <i class="fa-solid fa-wrench"></i>
+            </div>
+            <h2>Config</h4>
+            <h4>Setup welcome messages, goodbye messages, and much more with ease</h4>
+            <a href="#commands" onclick="learnMore('config')">Learn more</a>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <section id="status">
+        <div class="status">
+            <div class="title reveal">
+                <h4>Status</h4>
+                <h1>of</h1>
+                <h2><span class="tag">Vlone</span></h2>
+            </div>
+        <div class="status-list reveal">
+        <!-- 1 -->
+        <div class="item">
+            <div class="icon">
+                <i class="fa-solid fa-server"></i>
+            </div>
+            <h2>Guilds</h4>
+            <h4>250+</h4>
+        </div>
+
+        <!-- 2 -->
+         <div class="item">
+            <div class="icon">
+                <i class="fa-solid fa-users"></i>
+            </div>
+            <h2>Users</h4>
+            <h4>42381+</h4>
+        </div>
+
+        <!-- 3 -->
+         <div class="item">
+            <div class="icon">
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <h2>Created</h4>
+            <h4>2023</h4>
+        </div>
+      </div>
+        </div>
+    </section>
+
+    <section id="commands">
+      <div class="title reveal">
+        <h1 class="tag">Commands</h1>
+        <h4>Search and discover all available commands</h4>
+      </div>
+      <div class="search reveal">
+        <div class="search-bk">
+          <i class="fa-solid fa-magnifying-glass"></i> <input type="search" id="search">
+        </div>
+      </div>
+
+      <div class="commands reveal">
+        <div class="categorys">
+          <div class="category" id="category">
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="credit">
+        &copy; 2025 Vlone Bot. All rights reserved.
+      </div>
+      <div class="links-footer">
+        <div class="top">
+          <ul>
+          <li>
+            <a href="#features">Features</a>
+          </li>
+          <li>
+            <a href="#commands">Commands</a>
+          </li>
+          <li>
+            <a href="#status">Status</a>
+          </li>
+        </ul>
+        </div>
+        <div class="terms">
+          <ul>
+            <li><a href="privavy-policy.html">Privavy Policy</a></li>
+            <li><a href="terms-of-service.html">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
